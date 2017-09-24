@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Classes
 
 - [Math9b](Math9b)
