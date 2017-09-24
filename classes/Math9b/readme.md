@@ -10,7 +10,7 @@ bbb
 
 {% for file in site.static_files %}
 	* 11: {{file.path}}
-	{% if file.path contains {{ page.dir }} %}
+	{% if file.path contains {{ page.path }} %}
 		* [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
 	{% endif %}
 {% endfor %}
