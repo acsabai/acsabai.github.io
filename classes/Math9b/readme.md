@@ -1,10 +1,10 @@
-# {{ page.dir | remove "/classes/"}}
+# {{ page.dir | remove "/classes/" }}
 
 ## This lecture ...
 
 $$\sqrt{16} = 4$$
 
-- [another page here][another.md]
+- [another page here](another.md)
 
 ## Downloads:
 {% for file in site.static_files %}
