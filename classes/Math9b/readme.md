@@ -1,10 +1,10 @@
-## This lecture ...
+#### This lecture ...
 
 $$\sqrt{16} = 4$$
 
 - [another page here](another.md)
 
-## Downloads:
+#### Downloads:
 {% for file in site.static_files %}
 {% if file.path contains page.dir %}
 {% if file.path contains "/downloads/" %}
