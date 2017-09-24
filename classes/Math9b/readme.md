@@ -1,10 +1,4 @@
-# {{ page.dir }}
 
-aaaa
-
-{{ page.dir }}
-
-bbb
 
 {{ page.path }}
 
@@ -17,3 +11,11 @@ bbb
 		* [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
 	{% endif %}
 {% endfor %}
+
+# {{ page.dir }}
+
+aaaa
+
+{{ page.dir }}
+
+bbb
