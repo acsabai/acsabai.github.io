@@ -1,3 +1,7 @@
+---
+layout: classes
+---
+
 #### This lecture ...
 
 $$\sqrt{16} = 4$$
