@@ -5,3 +5,10 @@ collections:
   classes:
     output: true
     permalink: /:collection/:name
+    
+defaults:
+  - scope:
+      path: ""
+      type: "classes"
+    values:
+      layout: "classes"
