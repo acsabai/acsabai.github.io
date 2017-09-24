@@ -35,7 +35,7 @@
 {% for file in site.static_files %}
 {% if file.path contains page.dir %}
 {% if file.path contains "/downloads/" %}
-   <a href="{{ site.baseurl }}{{ file.path }}"> {{ file.path | remove: page.dir | remove: "downloads/" }} </a>
+   <li><a href="{{ site.baseurl }}{{ file.path }}"> {{ file.path | remove: page.dir | remove: "downloads/" }} </a></li>
 {% endif %}
 {% endif %}
 {% endfor %}
