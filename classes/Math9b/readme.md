@@ -1,3 +1,5 @@
 {% for file in site.static_files %}
- * [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
+	{% if file.path contains {{page.path}} %}
+		* [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
+	{% endif %}
 {% endfor %}
