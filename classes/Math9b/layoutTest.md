@@ -1,5 +1,0 @@
----
-layout: classes
----
-
-Hello
