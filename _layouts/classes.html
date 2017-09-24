@@ -26,9 +26,19 @@
     </nav>
 <div class="container">
 
-This is the class template
 
   {{ content }}
+  
+<h2> Downloads:</h2>
+<ul>
+{% for file in site.static_files %}
+{% if file.path contains page.dir %}
+{% if file.path contains "/downloads/" %}
+   <a href="{{ site.baseurl }}{{ file.path }}"> {{ file.path | remove: page.dir | remove: "downloads/" }} </a>
+{% endif %}
+{% endif %}
+{% endfor %}
+</ul>
 
 </div>
   
