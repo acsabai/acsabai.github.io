@@ -26,10 +26,11 @@
     </nav>
 <div class="container">
 
+<h1> {{ page.dir | remove "classes" }} </h1>
 
   {{ content }}
   
-<h2> Downloads:</h2>
+<h3> Downloads:</h3>
 <ul>
 {% for file in site.static_files %}
 {% if file.path contains page.dir %}
