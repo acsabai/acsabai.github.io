@@ -1,6 +1,5 @@
-name: Istvan Csabai
+name: Anita Csabai
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
 
 collections:
   classes:
