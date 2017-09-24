@@ -1,5 +1,3 @@
-# {{ page.dir | remove "/classes/" }}
-
 ## This lecture ...
 
 $$\sqrt{16} = 4$$
